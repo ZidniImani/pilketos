@@ -1,0 +1,99 @@
+/* CSS Document */
+.navbar{
+	background:#eee;
+	border-bottom: 5px solid #BBB;
+	padding:5px;
+}
+a{
+	color:#009900;
+	transition: 0.15s;
+}
+.navbar-header a{
+	color: #09F;
+}
+.navbar-right li a:hover{
+	background:#bbb;
+}
+.container-beranda{
+	width: 50%;
+	float: left;
+	margin-top: 10%;
+}
+.modal-color{
+	background: #7BCA26;
+	color: #fff;
+	font-weight: 600;
+}
+.log{
+	width: 30%;
+	margin: 130px auto;
+}
+.logwidth{
+	width: 100%;
+}
+.panelpil{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid #ccc;
+}
+.conlog{
+	margin:20px auto;
+	width: 30%;
+	text-align:left;
+	padding: 25px;
+	float: both;
+}
+.conpil{
+	margin:0px auto;
+	width: 95%;
+	text-align:center;
+	border:0px solid #eee;
+	padding: 25px;
+}
+.panel-default{
+	position: relative;
+}
+.back{
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
+	display: none;
+	padding:115px 105px;
+	background: #000;
+	color: #fff;
+	opacity: 0.5;
+}
+.panel-body:hover .back{
+	display: block;
+}
+.droptom{
+	color:#000;
+}
+.droptom:hover{
+	color:#000;
+}
+.wellcenter{
+	width: 80%;
+	margin:10px auto;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float:right;
+}
+.clearfix{
+	clear: both;
+}
+@media screen and (max-width:1024px){
+	.back{
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
+	display: none;
+	padding:65px 65px;
+	background: #000;
+	color: #fff;
+	opacity: 0.5;
+}
